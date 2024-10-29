@@ -1,1 +1,1 @@
-* Stéphane Bidoul <stephane.bidoul@acsone.eu>
+* Elheit Mohamed Lamine <meslamineelheit@gmail.com>

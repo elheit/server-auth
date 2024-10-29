@@ -8,7 +8,7 @@
     "version": "17.0.1.1.0",
     "license": "LGPL-3",
     "author": "ACSONE SA/NV,Odoo Community Association (OCA)",
-    "maintainers": ["sbidoul"],
+    "maintainers": ["elheit"],
     "website": "https://github.com/OCA/server-auth",
     "depends": [],
     "external_dependencies": {"python": ["pyjwt", "cryptography"]},

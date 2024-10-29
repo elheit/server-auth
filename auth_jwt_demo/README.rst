@@ -17,13 +17,13 @@ Auth JWT Test
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fserver--auth-lightgray.png?logo=github
-    :target: https://github.com/OCA/server-auth/tree/16.0/auth_jwt_demo
+    :target: https://github.com/OCA/server-auth/tree/17.0/auth_jwt_demo
     :alt: OCA/server-auth
 .. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/server-auth-16-0/server-auth-16-0-auth_jwt_demo
+    :target: https://translation.odoo-community.org/projects/server-auth-17-0/server-auth-17-0-auth_jwt_demo
     :alt: Translate me on Weblate
 .. |badge5| image:: https://img.shields.io/badge/runboat-Try%20me-875A7B.png
-    :target: https://runboat.odoo-community.org/builds?repo=OCA/server-auth&target_branch=16.0
+    :target: https://runboat.odoo-community.org/builds?repo=OCA/server-auth&target_branch=17.0
     :alt: Try me on Runboat
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
@@ -92,7 +92,7 @@ Authors
 Contributors
 ~~~~~~~~~~~~
 
-* Stéphane Bidoul <stephane.bidoul@acsone.eu>
+* Elheit Mohamed Lamine <meslamineelheit@gmail.com>
 
 Maintainers
 ~~~~~~~~~~~
@@ -107,13 +107,13 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-.. |maintainer-sbidoul| image:: https://github.com/sbidoul.png?size=40px
-    :target: https://github.com/sbidoul
-    :alt: sbidoul
+.. |maintainer-elheit| image:: https://github.com/elheit.png?size=40px
+    :target: https://github.com/elheit
+    :alt: elheit
 
 Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-sbidoul| 
+|maintainer-elheit| 
 
 This module is part of the `OCA/server-auth <https://github.com/OCA/server-auth/tree/16.0/auth_jwt_demo>`_ project on GitHub.
 

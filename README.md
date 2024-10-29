@@ -32,7 +32,8 @@ addon | version | maintainers | summary
 [auth_user_case_insensitive](auth_user_case_insensitive/) | 17.0.1.0.0 |  | Makes the user login field case insensitive
 [impersonate_login](impersonate_login/) | 17.0.1.0.2 | [![Kev-Roche](https://github.com/Kev-Roche.png?size=30px)](https://github.com/Kev-Roche) | tools
 [user_log_view](user_log_view/) | 17.0.1.0.0 | [![trojikman](https://github.com/trojikman.png?size=30px)](https://github.com/trojikman) | Allow to see user's actions log
-
+[auth_jwt](auth_jwt/) | 17.0.1.1.0 | [![elheit](https://github.com/elheit.png?size=30px)](https://github.com/elheit) | JWT bearer token authentication.
+[auth_jwt_demo](auth_jwt_demo/) | 17.0.1.1.1 | [![elheit](https://github.com/elheit.png?size=30px)](https://github.com/elheit) | Test/demo module for auth_jwt.
 [//]: # (end addons)
 
 <!-- prettier-ignore-end -->
