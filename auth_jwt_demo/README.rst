@@ -39,37 +39,36 @@ Usage
 =====
 
 This modules creates a JWT validator named ``demo``, and adds a
-``/auth_jwt_demo/whoami`` route which returns information about the partner
-identified in the token.
+``/auth_jwt_demo/whoami`` route which returns information about the
+partner identified in the token.
 
-The ``whoami`` endpoint can be invoked as such, assuming `python-jose
-<https://pypi.org/project/python-jose/>`_ is installed.
+The ``whoami`` endpoint can be invoked as such, assuming
+`python-jose <https://pypi.org/project/python-jose/>`__ is installed.
 
+.. code:: python
 
-.. code-block:: python
+   # /usr/bin/env python3
+   import time
 
-    # /usr/bin/env python3
-    import time
+   import requests
+   from jose import jwt
 
-    import requests
-    from jose import jwt
-
-    token = jwt.encode(
-        {
-            "aud": "auth_jwt_test_api",
-            "iss": "some issuer",
-            "exp": time.time() + 60,
-            "email": "mark.brown23@example.com",
-        },
-        key="thesecret",
-        algorithm=jwt.ALGORITHMS.HS256,
-    )
-    r = requests.get(
-        "http://localhost:8069/auth_jwt_demo/whoami",
-        headers={"Authorization": "Bearer " + token},
-    )
-    r.raise_for_status()
-    print(r.json())
+   token = jwt.encode(
+       {
+           "aud": "auth_jwt_test_api",
+           "iss": "some issuer",
+           "exp": time.time() + 60,
+           "email": "mark.brown23@example.com",
+       },
+       key="thesecret",
+       algorithm=jwt.ALGORITHMS.HS256,
+   )
+   r = requests.get(
+       "http://localhost:8069/auth_jwt_demo/whoami",
+       headers={"Authorization": "Bearer " + token},
+   )
+   r.raise_for_status()
+   print(r.json())
 
 Bug Tracker
 ===========
@@ -77,7 +76,7 @@ Bug Tracker
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/server-auth/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/OCA/server-auth/issues/new?body=module:%20auth_jwt_demo%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/OCA/server-auth/issues/new?body=module:%20auth_jwt_demo%0Aversion:%2017.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -85,17 +84,17 @@ Credits
 =======
 
 Authors
-~~~~~~~
+-------
 
 * ACSONE SA/NV
 
 Contributors
-~~~~~~~~~~~~
+------------
 
-* Elheit Mohamed Lamine <meslamineelheit@gmail.com>
+- Elheit Mohamed Lamine <meslamineelheit@gmail.com>
 
 Maintainers
-~~~~~~~~~~~
+-----------
 
 This module is maintained by the OCA.
 
@@ -115,6 +114,6 @@ Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
 |maintainer-elheit| 
 
-This module is part of the `OCA/server-auth <https://github.com/OCA/server-auth/tree/16.0/auth_jwt_demo>`_ project on GitHub.
+This module is part of the `OCA/server-auth <https://github.com/OCA/server-auth/tree/17.0/auth_jwt_demo>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.

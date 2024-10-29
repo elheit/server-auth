@@ -1,10 +1,12 @@
 env:
   browser: true
   es6: true
+  node: true
 
 # See https://github.com/OCA/odoo-community.org/issues/37#issuecomment-470686449
 parserOptions:
   ecmaVersion: 2019
+  sourceType: module
 
 overrides:
   - files:
@@ -140,7 +142,7 @@ rules:
   no-unsafe-finally: error
   no-unused-expressions: error
   no-unused-labels: error
-  no-unused-vars: error
+  no-unused-vars: warn
   no-use-before-define: error
   no-useless-call: warn
   no-useless-computed-key: warn
